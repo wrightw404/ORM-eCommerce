@@ -33,7 +33,10 @@ router.get('/:id', async (req, res) => {
       where: {
         id: req.params.id
       },
-      include:[Category]
+      include:[Category, {
+        model: Tag,
+        through: ProductTag
+      }]
     });
     if(!productInfo){
       res.status(400).json({message: "Error, can't find the product"})
