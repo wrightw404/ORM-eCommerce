@@ -3,6 +3,14 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
+  /* req.body should look like this...
+    {
+    "tag_name": 'bills'
+    }
+  */
+
+
+
 router.get('/', async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
