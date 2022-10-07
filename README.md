@@ -14,6 +14,8 @@ Your challenge is to build the back end for an e-commerce site. You’ll take a 
 
 ## Mock-Up
 ![](images/13demo.gif)
+![](images/13demo2.gif)
+![](images/13demo3.gif)
 
 ### User Story 
 ![](images/userStory.png)
@@ -22,7 +24,7 @@ Your challenge is to build the back end for an e-commerce site. You’ll take a 
 ![](images/acceptanceCrit.png)
 
 ## Walkthrough 
-
+<iframe src="https://drive.google.com/file/d/113iLxIckuXTRxKjZyjSsTsYcYDr0bYuw/preview" width="640" height="480"></iframe>
 
 ## Installation
 to use this application one must install 
